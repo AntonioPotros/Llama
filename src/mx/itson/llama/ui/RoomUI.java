@@ -176,7 +176,7 @@ public class RoomUI extends javax.swing.JFrame {
                                 String numLetra = JTBotones[i][j].getText().charAt(5)+"";
                                 int num = Integer.parseInt(numLetra);
                                 sinReservar(num);
-                                                            System.out.println(num);
+                                                            
                                 
                             }else if(JTBotones[i][j].getText().length()==6){
                                  String numLetra = JTBotones[i][j].getText().charAt(5)+" "+JTBotones[i][j].getText().charAt(6);

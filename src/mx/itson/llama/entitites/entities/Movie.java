@@ -7,7 +7,6 @@ package mx.itson.llama.entitites.entities;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import mx.itson.llama.enums.Type;
 import java.sql.SQLException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -28,7 +27,7 @@ public class Movie {
  private String type;
  private String schedule;
 private int room;
-private int seat;
+
 
  
  public static List<Movie> getAll(String filtro){
@@ -188,18 +187,6 @@ private int seat;
     public void setId(int id) {
         this.id = id;
     }
-       /**
-     * @return the seat
-     */
-    public int getSeat() {
-        return seat;
-    }
 
-    /**
-     * @param seat the seat to set
-     */
-    public void setSeat(int seat) {
-        this.seat = seat;
-    }
     
 }
